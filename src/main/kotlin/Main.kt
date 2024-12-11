@@ -18,8 +18,10 @@ fun main() {
    // ReverseWords().reversWords("This is a string of words");
    // ReverseWords().reversWords("Coding Kotlin");
 
-    ReversArrayInPlace().reverseArrayInPlace(arrayOf(1,2,3,4,5,6))
+   // ReversArrayInPlace().reverseArrayInPlace(arrayOf(1,2,3,4,5,6))
 
+  val stats =   MeanMedianMode().meanMedianMode(arrayOf(9, 10, 23,10, 23, 9));
+    println(stats)
 
 }
 
