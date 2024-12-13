@@ -20,8 +20,11 @@ fun main() {
 
    // ReversArrayInPlace().reverseArrayInPlace(arrayOf(1,2,3,4,5,6))
 
-  val stats =   MeanMedianMode().meanMedianMode(arrayOf(9, 10, 23,10, 23, 9));
-    println(stats)
+  // val stats =   MeanMedianMode().meanMedianMode(arrayOf(9, 10, 23,10, 23, 9));
+  //   println(stats)
 
+  val pairs = TwoSum().twoSum(arrayOf(1,6,4,5,3,3), 7)
+  println(pairs)
 }
 
+//(arrayOf(1,6,4,5,3,3)
