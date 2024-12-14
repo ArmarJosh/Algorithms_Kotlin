@@ -23,7 +23,8 @@ fun main() {
   // val stats =   MeanMedianMode().meanMedianMode(arrayOf(9, 10, 23,10, 23, 9));
   //   println(stats)
 
-  val pairs = TwoSum().twoSum(arrayOf(1,6,4,5,3,3), 7)
+  val pairs = TwoSum().twoSum(arrayOf(1,6,4,5,3,3, 14), 10)
+ // val pairs = TwoSum().twoSumNonPerformant(arrayOf(1,6,4,5,3,3, 14), 7)
   println(pairs)
 }
 
