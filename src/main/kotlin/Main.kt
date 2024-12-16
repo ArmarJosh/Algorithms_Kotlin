@@ -23,9 +23,11 @@ fun main() {
   // val stats =   MeanMedianMode().meanMedianMode(arrayOf(9, 10, 23,10, 23, 9));
   //   println(stats)
 
-  val pairs = TwoSum().twoSum(arrayOf(1,6,4,5,3,3, 14), 10)
+ // val pairs = TwoSum().twoSum(arrayOf(1,6,4,5,3,3, 14), 10)
  // val pairs = TwoSum().twoSumNonPerformant(arrayOf(1,6,4,5,3,3, 14), 7)
-  println(pairs)
-}
+ // println(pairs)
 
-//(arrayOf(1,6,4,5,3,3)
+  val binary = BinarySearch().binarySearch(listOf(5,7,12,16,36,39,42,56,71), 56);
+  println(binary)
+
+}
