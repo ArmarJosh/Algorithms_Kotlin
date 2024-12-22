@@ -39,7 +39,18 @@ fun main() {
  // val prime = SieveOfEratosthenes().sieveOfEratosthenes(20)
  // println(prime)
 
- val sort = BubbleSort().bubbleSort(arrayOf(3, -9, -12, -1, 8))
-  println(sort.joinToString(", "));
+ // Bubble sort.
+// val sort = BubbleSort().bubbleSort(arrayOf(3, -9, -12, -1, 8))
+//  println(sort.joinToString(", "));
+
+ // Merge Sort
+ // val mergeSort = BubbleSort().mergeSort(arrayOf(6000, 34, 203, 3, 746, 200, 984, 198, 764, 1, 9, 1))
+ // println(mergeSort.contentToString());
+
+ // val maxProfit = MaxStockProfit().maxStockProfit(arrayOf(32, 46, 26, 38, 40, 48, 42))
+ // println(maxProfit)
+
+ val maxProfit = MaxStockProfit().maxStockProfit(arrayOf(10, 18, 4, 5, 9, 6, 16, 12))
+ println(maxProfit)
 
 }

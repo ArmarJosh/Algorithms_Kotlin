@@ -57,7 +57,7 @@ class BubbleSort {
         val right = array.sliceArray(middle until array.size)
         return merge(mergeSort(left), mergeSort(right))
     }
-    fun merge(left: Array<Int>, right: Array<Int>): Array<Int> {
+    private fun merge(left: Array<Int>, right: Array<Int>): Array<Int> {
         var leftIndex = 0
         var rightIndex = 0
         val result = mutableListOf<Int>()
